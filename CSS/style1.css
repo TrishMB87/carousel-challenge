@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 32, 172);
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(241, 218, 7, 0.89);
+    padding: 10px;
+    margin: 0;
+}
+
+.hero {
+    height: 20vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
