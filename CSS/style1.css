@@ -3,17 +3,19 @@ body {
     background-color: rgb(8, 32, 172);
 }
 
+/*Header*/
 h1 {
     display: flex;
     justify-content: center;
     color: rgb(8, 32, 172);
     font-size: 35px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     background-color: rgba(241, 218, 7, 0.89);
     padding: 10px;
     margin: 0;
 }
 
+/*Hero image*/
 .hero {
     height: 20vh;
     width: 100vw;
@@ -63,23 +65,15 @@ h1 {
 /* Caption text */
 .text {
   color: rgba(241, 218, 7, 0.89);
-  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 30px;
   padding: 8px 12px;
   bottom: 8px;
   width: 100%;
   text-align: center;
 }
 
-/* Number text (1/5 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
+/* Dots */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -104,4 +98,13 @@ h1 {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/*Link to second page */
+button {
+  float: right;
+  background-color:rgba(241, 218, 7, 0.89);
+  color: rgb(8, 32, 172);
+  border: none;
+  border-radius: 1em;
 }
